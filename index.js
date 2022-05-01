@@ -47,10 +47,10 @@ app.listen(4444, () => {
 });
 
 app.get("/", function (req, res) {
-	res.send(`Up and running! Authorization: "${auth}"`);
+	res.send(`Up and running!`);
 });
 
-app.get("/data/:paramDetails", cors(), async (request, response) => {
+app.get("/:paramDetails", cors(), async (request, response) => {
 	const paramDetails = request.params.paramDetails.split(",");
 	const plate = paramDetails[0];
 	const state = paramDetails[1];
