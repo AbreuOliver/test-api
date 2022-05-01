@@ -1,0 +1,32 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "test of application progamming interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "api",
+    "test"
+  ],
+  "author": "Oliver Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "nodemon": "^2.0.15"
+  }
+}
